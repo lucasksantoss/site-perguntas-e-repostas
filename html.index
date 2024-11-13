@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Perguntas - Luca</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <h1>Luca - Perguntas e Respostas</h1>
+    </div>
+  </header>
+
+  <!-- Seção de Perguntas -->
+  <section class="perguntas">
+    <h2>Perguntas Frequentes</h2>
+
+    <div class="pergunta-item">
+      <h3 class="pergunta">Como funciona o site Luca?</h3>
+      <p class="resposta">O site Luca é uma plataforma onde você pode fazer perguntas e obter respostas de nossa comunidade. Você também pode interagir com as respostas, comentando e votando nas melhores.</p>
+    </div>
+
+    <div class="pergunta-item">
+      <h3 class="pergunta">Como posso enviar uma pergunta?</h3>
+      <p class="resposta">Para enviar uma pergunta, basta clicar no botão "Enviar Pergunta" abaixo, preencher o formulário e enviar sua dúvida para nossa comunidade.</p>
+    </div>
+
+    <div class="pergunta-item">
+      <h3 class="pergunta">Posso responder a perguntas de outros usuários?</h3>
+      <p class="resposta">Sim! Nossa plataforma é colaborativa. Você pode responder às perguntas de outros usuários, ajudando a esclarecer dúvidas e compartilhar conhecimentos.</p>
+    </div>
+
+    <div class="pergunta-item">
+      <h3 class="pergunta">Há algum custo para usar o site?</h3>
+      <p class="resposta">Não, o site Luca é totalmente gratuito. Você pode fazer perguntas, responder e interagir com outros usuários sem nenhum custo.</p>
+    </div>
+  </section>
+
+  <!-- Formulário de Envio de Pergunta -->
+  <section class="formulario-pergunta">
+    <h2>Envie Sua Pergunta</h2>
+    <form action="#">
+      <label for="pergunta">Sua Pergunta:</label>
+      <textarea id="pergunta" name="pergunta" rows="4" placeholder="Escreva sua pergunta aqui..."></textarea>
+      <button type="submit">Enviar Pergunta</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Luca - Perguntas e Respostas</p>
+  </footer>
+
+</body>
+</html>
